@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "collaborative-canvas-yjs",
+  "main": "server.ts",
+  "compatibility_date": "2026-09-10",
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "CollaborativeCanvas",
+        "class_name": "CollaborativeCanvas"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["CollaborativeCanvas"]
+    }
+  ]
+}
