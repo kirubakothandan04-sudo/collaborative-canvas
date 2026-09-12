@@ -200,6 +200,8 @@ function App() {
         ydoc,
         {
           awareness,
+          party: "collaborative-canvas",
+          
         }
       );
 
